@@ -4,7 +4,7 @@ services:
       context: ./packages/openmemory-js
       dockerfile: Dockerfile
     ports:
-      - '8080:8087'
+      - '8087:8087'
     environment:
       # Core Configuration
       - OM_PORT=${OM_PORT:-8087}
